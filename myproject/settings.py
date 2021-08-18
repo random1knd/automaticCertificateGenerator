@@ -128,10 +128,10 @@ STATIC_ROOT = os.path.join(BASE_DIR,'assets')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 MEDIA_URL = '/uploads/' 
 
-EMAIL_HOST = "smtp.gmail.com" 
+EMAIL_HOST = "YourHostMailGoesHere" 
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'random1knd@gmail.com'
-EMAIL_HOST_PASSWORD = 'imblzsmuypusccbw'
+EMAIL_HOST_USER = 'YourMailGoesHere'
+EMAIL_HOST_PASSWORD = 'YourPasswordGoesHere'
 EMAIL_USE_TLS = True
 
 # Default primary key field type
